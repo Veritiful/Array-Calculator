@@ -48,14 +48,14 @@ int main(void)
     printf("-----Array-----\n");
     for (int i = 0; i < 12; i++)
     {
-        printf("A[%d] = %d\n", i, A[i]);
+        printf("A[%d] = %d\t", i, A[i]);
     }
 
-    
-    printf("-----Newly formed array-----\n");
+
+    printf("\n-----Newly formed array-----\n");
     for (int i = 0; i < 12; i++)
     {
-        printf("C[%d] = %2.2lf\n", i, C[i]);
+        printf("C[%d] = %2.2lf\t", i, C[i]);
     }
 
     return 0;
